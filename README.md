@@ -14,10 +14,10 @@ It is licensed under GNU/GPL version 3.
 
 English:
 
-1. Pafish4vs is based on [Pafish]( https://github.com/a0rtega/pafish) , you can use VS (VC) compiled for the X86 and X64 versions .
-2. Basically do not do functional modifications , just do some changes to be compatible with VS(VC) .
+1. Pafish4vs is based on [Pafish]( https://github.com/a0rtega/pafish) , You are able to utilize VS (VC) to compile for version X64 and X86.
+2. Modification for VS(VC) is only for compatibility. Main functionalities are almost not modified. 
 3. Add compiler version to console output .
-4. More information about pafish via : https://github.com/a0rtega/pafish .
+4. Please access https://github.com/a0rtega/pafish for more information about Pafish.
 
 
 中文：
