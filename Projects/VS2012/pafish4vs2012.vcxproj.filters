@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Res">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PafishAssembly">
+      <UniqueIdentifier>{70d54584-c52a-4734-857b-4ba6295b2a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PafishAssembly\ASM">
+      <UniqueIdentifier>{fad8bb10-4215-4fed-a313-7dead44c8fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PafishAssembly\ASM\X64">
+      <UniqueIdentifier>{e77112cb-a145-4ad5-afcc-9c5cf965b6e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Res\pafish.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Code\PafishAssembly\bochs.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\common.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\cpu.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\cuckoo.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\debuggers.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\gensandbox.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\hooks.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\qemu.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\sandboxie.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\utils.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\vbox.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\vmware.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\PafishAssembly\wine.c">
+      <Filter>PafishAssembly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Code\main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Code\PafishAssembly\bochs.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\common.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\config.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\cpu.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\cuckoo.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\debuggers.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\gensandbox.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\hooks.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\qemu.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\sandboxie.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\types.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\utils.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\vbox.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\vmware.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\wine.h">
+      <Filter>PafishAssembly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Code\PafishAssembly\ASM\X64\get_number_of_processors.h">
+      <Filter>PafishAssembly\ASM\X64</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Code\PafishAssembly\ASM\X64\get_number_of_processors.asm">
+      <Filter>PafishAssembly\ASM\X64</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,31 @@
+
+#include <windows.h>
+
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "pafish.ico"
+
+1 VERSIONINFO
+FILEVERSION 0,5,7,1
+PRODUCTVERSION 0,5,7,1
+FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", ""
+            VALUE "FileVersion", ""
+            VALUE "FileDescription", "Paranoid Fish is paranoid"
+            VALUE "InternalName", ""
+            VALUE "LegalCopyright", ""
+            VALUE "LegalTrademarks", ""
+            VALUE "OriginalFilename", ""
+            VALUE "ProductName", "Paranoid Fish"
+            VALUE "ProductVersion", ""
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END
+
